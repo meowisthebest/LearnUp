@@ -1382,7 +1382,16 @@ a.btn-trans-video i {
     color: #ffffff !important;
     border-color:#252c41;
 }
-
+.course_btn {
+    padding: 10px;
+    color: #fff;
+    border: 1px solid rgba(109, 109, 109, 0.664);
+    transition: 0.4s;
+}
+.course_btn:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
 .btn-lg {
     padding: 0.8em 2em;
 	border-radius:0.4rem;
