@@ -8599,6 +8599,22 @@ footer.skin-dark-footer ul.footer-bottom-social li a:hover, footer.skin-dark-foo
     padding-right: 2rem;
 }
 
+.lessons-border{
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-bottom: none !important;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background-color: #fff;
+}
+.lessons-border a:hover{
+    color: #495057 !important;
+    border-color: transparent !important;
+}
+
+.checker-finish{
+    display: inline-block;
+}
 
 
 

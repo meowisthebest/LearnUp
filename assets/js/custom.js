@@ -432,3 +432,19 @@ $(function() {
 	});
 	
 });
+
+function toggleAccordionIcon(elem, section_id) {
+	var accordion_section_ids = [];
+	$(".accordion_icon").each(function(){ accordion_section_ids.push(this.id); });
+	accordion_section_ids.forEach(function(item) {
+		if (item === 'accordion_icon_'+section_id) {
+			if ($('#'+item).html().trim() === '<i class="fa fa-plus"></i>') {
+				$('#'+item).html('<i class="fa fa-minus"></i>')
+			}else {
+				$('#'+item).html('<i class="fa fa-plus"></i>')
+			}
+		}else{
+			$('#'+item).html('<i class="fa fa-plus"></i>')
+		}
+	});
+}
